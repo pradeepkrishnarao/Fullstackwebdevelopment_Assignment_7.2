@@ -1,0 +1,39 @@
+var valFor=0;//valFor is initialized to 0
+console.log("Using for loop");
+//for loop executes i to 10 iterations until the valFor is equal to 50
+for(i=0;valFor<=50;i++){
+    valFor=valFor+5;
+    console.log(valFor);
+}
+var j,valWhile=0;//j and valWhile is initialized to 0
+console.log("Using while loop");
+//while loop executes j to 10 iterations until the valWhile is equal to 50
+while(valWhile<=50){
+    j++;
+    valWhile=valWhile+5;
+    console.log(valWhile);
+}
+VM343:2 Using for loop
+VM343:6 5
+VM343:6 10
+VM343:6 15
+VM343:6 20
+VM343:6 25
+VM343:6 30
+VM343:6 35
+VM343:6 40
+VM343:6 45
+VM343:6 50
+VM343:6 55
+VM343:9 Using while loop
+VM343:14 5
+VM343:14 10
+VM343:14 15
+VM343:14 20
+VM343:14 25
+VM343:14 30
+VM343:14 35
+VM343:14 40
+VM343:14 45
+VM343:14 50
+VM343:14 55
